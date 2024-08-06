@@ -1,0 +1,1 @@
+/home/fng/.emacs-loc.d/elpaca/repos/persistent-scratch/persistent-scratch.el
