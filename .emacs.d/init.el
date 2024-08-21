@@ -142,6 +142,16 @@
   )
 
 
+(use-package eldoc
+  :ensure t
+  :demand t
+  )
+
+(use-package jsonrpc
+  :ensure t
+  :demand t
+  )
+
 (use-package eglot
   :ensure t
   :demand t
