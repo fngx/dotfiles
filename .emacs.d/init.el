@@ -130,10 +130,24 @@
   :demand t
   )
 
+
+(use-package lsp-treemacs
+  :ensure t
+  :demand t
+  )
+
 (use-package markdown-mode
   :ensure t
   :demand t
   )
+
+
+(use-package eglot
+  :ensure t
+  :demand t
+  )
+
+
 
 (use-package eat
   :ensure (:type git
