@@ -128,6 +128,9 @@
 (use-package treemacs
   :ensure t
   :demand t
+  :custom
+  (treemacs-show-hidden-files t)
+  (treemacs-width 30)
   )
 
 
@@ -157,7 +160,8 @@
   :demand t
   )
 
-
+;; TODO : lsp through tramp
+;; https://gitlab.univ-lille.fr/michael.hauspie/emacs/-/blob/master/configuration.org
 
 (use-package eat
   :ensure (:type git
